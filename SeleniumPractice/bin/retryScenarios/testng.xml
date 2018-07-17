@@ -1,0 +1,11 @@
+
+<suite name="retry">
+	<listeners>
+		<listener class-name="retryScenarios.RetryListener" />
+	</listeners>
+	<test name="retry test">
+		<classes>
+			<class name="retryScenarios.test" />
+		</classes>
+	</test>
+</suite>
